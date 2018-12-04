@@ -3,6 +3,7 @@
     <p></p>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p class="back">dddd</p>
   </div>
 </template>
 
@@ -17,7 +18,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+$red:red;
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,5 +27,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.back{
+  background-color: $c_main;
 }
 </style>

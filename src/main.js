@@ -1,6 +1,7 @@
 import i18n from './locales'
 import Vue from 'vue'
 import App from './App.vue'
+import './common.scss'
 Vue.config.productionTip = false
 
 
